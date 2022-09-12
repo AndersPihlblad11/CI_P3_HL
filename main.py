@@ -7,8 +7,8 @@
 # Ask user for a guess.
 
 # Check if user is correct.
-## Get follower count of each account.
-## Use if statement to check if user is correct.
+# Get follower count of each account.
+# Use if statement to check if user is correct.
 
 # Give feedback on their guess.
 
