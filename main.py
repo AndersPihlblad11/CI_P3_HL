@@ -1,3 +1,7 @@
+from art import logo
+from game_data import data
+import random
+
 # Higher Lower Display art
 
 # Generate a random account from the game data.
