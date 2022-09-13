@@ -3,7 +3,7 @@ from game_data import data
 import random
 
 # Higher Lower Display art
-
+print(logo)
 # Generate a random account from the game data.
 
 # Format the account data into printable format.
