@@ -3,10 +3,17 @@ from game_data import data
 import random
 
 # Format the account data into printable format.
-account_name = account_a["name"]
-account_name = account_a["description"]
-account_name = account_a["country"]
-print(f"{account_name}, a {account_descr}, from {account_country}")
+def format_data(account):
+account_name = account_a ["name"]
+account_name = account_a ["description"]
+account_name = account_a ["country"]
+return f"{account_name}, a {account_descr}, from {account_country}"
+ 
+def check_answer(guess, a_followers, b_followers): 
+    if a_followers > b_followers:
+        return guess == "a"
+        else:
+            return guess == "b" 
 
 # Higher Lower Display art
 print(logo)
@@ -22,8 +29,11 @@ print(f"Compare B: {format_data(account_a)}.")
 
 # Ask user for a guess.
 input("Who has more followers? Type 'A' or 'B': ").lower()
+
 # Check if user is correct.
 # Get follower count of each account.
+a_follower_count = account_a["follow_count"]
+b_follower_count = account_b["follow_count"]
 # Use if statement to check if user is correct.
 
 # Give feedback on their guess.
