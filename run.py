@@ -4,7 +4,6 @@ import random
 from replit import clear
 
 def format_data(account):
-"""Takes the account data and returns the printable format."""
    account_name = account ["name"]
    account_descr = account ["description"]
    account_country = account ["country"] 
