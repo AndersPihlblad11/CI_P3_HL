@@ -4,13 +4,14 @@ from art import logo, vs
 from game_data import data
 
 
+#______________________________________
 def clear_screen():
 	os.system('cls' if os.name == 'nt' else 'clear')
 
-
+#______________________________________
 
 def main_higher_lower(score = 0, first = choice(data), second = choice(data)):
-    first_a = first
+	first_a = first
 	second_a = second
 	total_score = score
 
@@ -22,10 +23,10 @@ def main_higher_lower(score = 0, first = choice(data), second = choice(data)):
 		first_a = second_a
 	second_a = choice(data)
 
-	print(f"Compare A: {first_a['name']}, a {first_a['description']}, from {first_a['country']}.\n{vs}")
-	print(f"Against B: {second_a['name']}, a {second_a['description']}, from {second_a['country']}")
+	print(f"Compare A: {first_a['name']},  {first_a['description']}, from {first_a['country']}.\n{vs}")
+	print(f"Against B: {second_a['name']},  {second_a['description']}, from {second_a['country']}")
 
-	guess = input("Which animal is faster? Type 'A' or 'B': ")
+	guess = input("Who is Faster? Type 'A' or 'B': ")
 	more_speed = compare(first_a, second_a)
 
 	if guess == 'A' and more_speed == "first" or guess == 'B' and more_speed == "second":
@@ -40,11 +41,14 @@ def main_higher_lower(score = 0, first = choice(data), second = choice(data)):
 			print("Good bye!")
 
 
+#______________________________________
+
 def compare(first, second):
 	if first['speed_count'] > second['speed_count']:
 		return "first"
 	else:
 		return "second"
 
+#_______________________________________
 
 main_higher_lower()
