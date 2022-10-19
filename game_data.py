@@ -1,153 +1,153 @@
 data = [
     {
-        'name': 'Instagram',
-        'follower_count': 558,
-        'description': 'Social media platform',
-        'country': 'United States'
+        'name': 'Elephant',
+        'speed_count': 24.9,
+        'description': 'Biggest land mammal',
+        'country': 'Africa'
     },
     {
-        'name': 'Cristiano Ronaldo',
-        'follower_count': 489,
-        'description': 'Footballer',
+        'name': 'Wild dog',
+        'follower_count': 45,
+        'description': 'Hunts in packs',
         'country': 'Portugal'
     },
     {
-        'name': 'Ariana Grande',
-        'follower_count': 335,
-        'description': 'Musician and actress',
+        'name': 'Black Mamba',
+        'follower_count': 20,
+        'description': 'One of Africas most dangerous and feared',
         'country': 'United States'
     },
     {
-        'name': 'Dwayne Johnson',
-        'follower_count': 342,
-        'description': 'Actor and professional wrestler',
+        'name': 'Brown bear',
+        'follower_count': 21.7,
+        'description': 'Known as natures tank',
         'country': 'United States'
     },
     {
-        'name': 'Selena Gomez',
-        'follower_count': 351,
-        'description': 'Musician and actress',
+        'name': 'Cheetah',
+        'follower_count': 74.6,
+        'description': 'One of the lowest land mammals',
+        'country': 'Africa'
+    },
+    {
+        'name': 'coyote',
+        'follower_count': 42.9,
+        'description': 'Known as the American jackal',
         'country': 'United States'
     },
     {
-        'name': 'Kylie Jenner',
-        'follower_count': 372,
-        'description': 'Reality TV personality and businesswoman',
+        'name': 'Domestic cat',
+        'follower_count': 29.8,
+        'description': 'A small carnivourous mammal that is valued by humans',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Squirrel',
+        'follower_count': 12.4,
+        'description': 'Tree native loved by most',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Tortoise',
+        'follower_count': 0.2,
+        'description': 'Fastest land mammal',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Snail',
+        'follower_count': 0,
+        'description': 'Move by gliding along their muscular foot',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Giraffe',
+        'follower_count': 32.3,
+        'description': 'Tallest land mammal',
+        'country': 'Africa'
+    },
+    {
+        'name': 'Lion',
+        'follower_count': 49.7,
+        'description': 'The King of the jungle',
+        'country': 'Africa'
+    },
+    {
+        'name': 'Usain Bolt',
+        'follower_count': 27,
+        'description': 'Fastest man alive',
+        'country': 'Jamaica'
+    },
+    {
+        'name': 'Grey Hound',
+        'follower_count': 39.5,
+        'description': 'Fastest breed of dog',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'elk',
+        'follower_count': 45,
+        'description': 'largest antilope',
+        'country': 'America/Europe'
+    },
+    {
+        'name': 'Grizzley bear',
+        'follower_count': 34.8,
+        'description': 'Known as the silvertip bear',
+        'country': 'Americas'
+    },
+    {
+        'name': 'Horse',
+        'follower_count': 54.7,
+        'description': 'The four beat walker',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Mouse',
+        'follower_count': 8.1,
+        'description': 'Fast for their size',
+        'country': 'Worldwide'
+    },
+    {
+        'name': 'Ostrich',
+        'follower_count': 43.5,
+        'description': 'Biggest bird',
         'country': 'United States'
     },
     {
-        'name': 'Kim Kardashian',
-        'follower_count': 332,
-        'description': 'Reality TV personality and businesswoman',
+        'name': 'Pig',
+        'follower_count': 11,
+        'description': 'Underdog',
         'country': 'United States'
     },
     {
-        'name': 'Lionel Messi',
-        'follower_count': 367,
-        'description': 'Footballer',
-        'country': 'Argentina'
+        'name': 'Polar bear',
+        'follower_count': 18.2,
+        'description': 'Relentless hunter',
+        'country': 'North pole'
     },
     {
-        'name': 'Beyoncé',
-        'follower_count': 279,
-        'description': 'Musician',
-        'country': 'United States'
+        'name': 'Rabbit',
+        'follower_count': 29.8,
+        'description': 'Long ears to hear preditors',
+        'country': 'Worldwide'
     },
     {
-        'name': 'Neymar',
-        'follower_count': 180,
-        'description': 'Footballer',
-        'country': 'Brasil'
+        'name': 'Kangaroos',
+        'follower_count': 43,
+        'description': 'Natures boxer',
+        'country': 'Austrailia'
     },
     {
-        'name': 'National Geographic',
-        'follower_count': 242,
-        'description': 'Magazine',
-        'country': 'United States'
-    },
-    {
-        'name': 'Justin Bieber',
-        'follower_count': 261,
-        'description': 'Musician',
-        'country': 'Canada'
-    },
-    {
-        'name': 'Taylor Swift',
-        'follower_count': 227,
-        'description': 'Musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'Kendall Jenner',
-        'follower_count': 260,
-        'description': 'Reality TV personality and Model',
-        'country': 'United States'
-    },
-    {
-        'name': 'Jennifer Lopez',
-        'follower_count': 224,
-        'description': 'Musician and actress',
-        'country': 'United States'
-    },
-    {
-        'name': 'Nicki Minaj',
-        'follower_count': 203,
-        'description': 'Musician',
-        'country': 'Trinidad and Tobago'
-    },
-    {
-        'name': 'Nike',
-        'follower_count': 241,
-        'description': 'Sportswear multinational',
-        'country': 'United States'
-    },
-    {
-        'name': 'Khloé Kardashian',
-        'follower_count': 277,
-        'description': 'Reality TV personality and businesswoman',
-        'country': 'United States'
-    },
-    {
-        'name': 'Miley Cyrus',
-        'follower_count': 185,
-        'description': 'Musician and actress',
-        'country': 'United States'
-    },
-    {
-        'name': 'Katy Perry',
-        'follower_count': 175,
-        'description': 'Musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'Kourtney Kardashian',
-        'follower_count': 202,
-        'description': 'Reality TV personality',
-        'country': 'United States'
-    },
-    {
-        'name': 'Kevin Hart',
-        'follower_count': 155,
-        'description': 'Comedian and actor',
-        'country': 'United States'
-    },
-    {
-        'name': 'Ellen DeGeneres',
-        'follower_count': 126,
-        'description': 'Comedian',
-        'country': 'United States'
-    },
-    {
-        'name': 'Real Madrid CF',
-        'follower_count': 126,
-        'description': 'Football club',
+        'name': 'Impala',
+        'follower_count': 40.4,
+        'description': 'Surprising speed',
         'country': 'Spain'
     },
     {
-        'name': 'FC Barcelona',
-        'follower_count': 112,
-        'description': 'Football club',
-        'country': 'Spain'
+        'name': 'Wilderbeast',
+        'follower_count': 39.8,
+        'description': 'Well known for their annual migration',
+        'country': 'Africa'
     },
     {
         'name': 'Rihanna',
@@ -156,147 +156,9 @@ data = [
         'country': 'Barbados'
     },
     {
-        'name': 'Demi Lovato',
-        'follower_count': 141,
-        'description': 'Musician and actress',
-        'country': 'United States'
-    },
-    {
-        'name': "Victoria's Secret",
-        'follower_count': 73.5,
-        'description': 'Lingerie brand',
-        'country': 'United States'
-    },
-    {
-        'name': 'Zendaya',
-        'follower_count': 154,
-        'description': 'Actress and musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'Shakira',
-        'follower_count': 76.4,
-        'description': 'Musician',
-        'country': 'Colombia'
-    },
-    {
-        'name': 'Drake',
-        'follower_count': 122,
-        'description': 'Musician',
-        'country': 'Canada'
-    },
-    {
-        'name': 'Chris Brown',
-        'follower_count': 122,
-        'description': 'Musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'LeBron James',
-        'follower_count': 135,
-        'description': 'Basketball player',
-        'country': 'United States'
-    },
-    {
-        'name': 'Vin Diesel',
-        'follower_count': 83.5,
-        'description': 'Actor',
-        'country': 'United States'
-    },
-    {
-        'name': 'Cardi B',
-        'follower_count': 142,
-        'description': 'Musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'David Beckham',
-        'follower_count': 75.6,
-        'description': 'Footballer',
-        'country': 'United Kingdom'
-    },
-    {
-        'name': 'Billie Eilish',
-        'follower_count': 106,
-        'description': 'Musician',
-        'country': 'United States'
-    },
-    {
-        'name': 'Justin Timberlake',
-        'follower_count': 66.7,
-        'description': 'Musician and actor',
-        'country': 'United States'
-    },
-    {
-        'name': 'UEFA Champions League',
-        'follower_count': 99.4,
-        'description': 'Club football competition',
-        'country': 'Europe'
-    },
-    {
-        'name': 'NASA',
-        'follower_count': 83.7,
-        'description': 'Space agency',
-        'country': 'United States'
-    },
-    {
-        'name': 'Emma Watson',
-        'follower_count': 68.3,
-        'description': 'Actress',
-        'country': 'United Kingdom'
-    },
-    {
-        'name': 'Shawn Mendes',
-        'follower_count': 70.6,
-        'description': 'Musician',
-        'country': 'Canada'
-    },
-    {
-        'name': 'Virat Kohli',
-        'follower_count': 218,
-        'description': 'Cricketer',
-        'country': 'India'
-    },
-    {
-        'name': 'Gigi Hadid',
-        'follower_count': 76.2,
-        'description': 'Model',
-        'country': 'United States'
-    },
-    {
-        'name': 'Priyanka Chopra Jonas',
-        'follower_count': 83,
-        'description': 'Actress and musician',
-        'country': 'India'
-    },
-    {
-        'name': '9GAG',
-        'follower_count': 57.9,
-        'description': 'Social media platform',
-        'country': 'China'
-    },
-    {
-        'name': 'Ronaldinho',
-        'follower_count': 68.2,
-        'description': 'Footballer',
-        'country': 'Brasil'
-    },
-    {
-        'name': 'Maluma',
-        'follower_count': 62.9,
-        'description': 'Musician',
-        'country': 'Colombia'
-    },
-    {
-        'name': 'Camila Cabello',
-        'follower_count': 65.6,
-        'description': 'Musician',
-        'country': 'Cuba'
-    },
-    {
-        'name': 'NBA',
-        'follower_count': 71.6,
-        'description': 'Club Basketball Competition',
+        'name': 'Zebra',
+        'follower_count': 40,
+        'description': 'Best known for their stripes',
         'country': 'United States'
     }
 ]
