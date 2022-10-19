@@ -1,74 +1,54 @@
+from random import *
+import os
 from art import logo, vs
 from game_data import data
-import random
 
 
-def get_random_account():
-    """
-    Retreive data from random account
-    """
-    return random.choice(data)
+#______________________________________
+def clear_screen():
+	os.system('cls' if os.name == 'nt' else 'clear')
+
+#______________________________________
+
+def main_higher_lower(score = 0, first = choice(data), second = choice(data)):
+	first_p = first
+	second_p = second
+	total_score = score
+
+	clear_screen()
+	print(logo)
+
+	if total_score > 0:
+		print(f"You're right! Current score: {total_score}")
+		first_p = second_p
+	second_p = choice(data)
+
+	print(f"Compare A: {first_p['name']}, a {first_p['description']}, from {first_p['country']}.\n{vs}")
+	print(f"Against B: {second_p['name']}, a {second_p['description']}, from {second_p['country']}")
+
+	guess = input("Who has more followers? Type 'A' or 'B': ")
+	more_followers = compare(first_p, second_p)
+
+	if guess == 'A' and more_followers == "first" or guess == 'B' and more_followers == "second":
+		total_score += 1
+		main_higher_lower(total_score, first_p, second_p)
+	else:
+		print("You're Loose!")
+
+		if input("Repeat? 'y' or 'n': ")== 'y':
+			main_higher_lower(0, choice(data), choice(data) )
+		else:
+			print("Good bye!")
 
 
-def format_data(account):
-    """
-    Format account into printable format
-    """
-    account_name = account["name"]
-    account_descr = account["description"]
-    account_country = account["country"] 
-    return f"{account_name}, a {account_descr}, from {account_country}"
+#______________________________________
 
+def compare(first, second):
+	if first['follower_count'] > second['follower_count']:
+		return "first"
+	else:
+		return "second"
 
-def check_answer(guess, a_followers, b_followers): 
-    """
-    Checks followers against user's guess 
-    and returns True if they got it right.
-    Or False if they got it wrong.
-    """
-    if a_followers > b_followers:
-        return guess == "a"
-    else:
-        return guess == "b"
+#_______________________________________
 
-
-def game():
-    print(logo)
-    score = 0
-    game_should_continue = True
-    account_a = random.choice(data)
-    account_b = random.choice(data)
-
-    while game_should_continue:
-        """
-        Making account at position B become the next account at the position A.
-        """
-        account_a = account_b
-        account_b = random.choice(data)
-
-        while account_a == account_b:
-            account_b = random.choice(data)
-
-            print(f"Compare A: {format_data(account_a)}.")
-            print(vs)
-            print(f"Compare B: {format_data(account_a)}.")
-
-            guess = input("Who has more followers? Type 'A' or 'B': \n ").lower()
-            # Check if user is correct.
-            # Get follower count of each account.
-            a_follower_count = account_a["follower_count"]
-            b_follower_count = account_b["follower_count"]
-            is_correct = check_answer(guess, a_follower_count, b_follower_count)
-
-            clear()
-            print(logo)
-            # Give feedback on their guess.
-            # Score keeping.
-            if is_correct:
-                score += 1
-                print("Your right! Current score: {score}")
-            else:
-                game_should_continue = False
-                print("Sorry, thats wrong. Final score: {score}")
-
-            game()
+main_higher_lower()
